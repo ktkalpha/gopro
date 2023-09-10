@@ -16,14 +16,8 @@ go env GOPATH
 export PATH=$PATH:$HOME/go/bin
 ```
 
-2. clone the repository
+2. install!
 
 ```bash
-git clone https://github.com/ktkalpha/gopro
-```
-
-3. install
-
-```bash
-go install
+go install github.com/ktkalpha/gopro@latest
 ```
